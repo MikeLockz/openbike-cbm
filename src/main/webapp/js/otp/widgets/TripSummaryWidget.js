@@ -37,8 +37,8 @@ otp.widgets.TripSummaryWidget =
         content += '<div id="otp-tsw-bikeTriangle"></div>';
 
         content += '<div id="otp-tsw-bikeTypeRow">Use: ';
-        content += '<input id="myOwnBikeRBtn" type="radio" name="bikeType" value="my_bike"> My Own Bike&nbsp;&nbsp;';
-        content += '<input id="sharedBikeRBtn" type="radio" name="bikeType" value="shared_bike" checked> A Shared Bike';
+        content += '<input id="myOwnBikeRBtn" type="radio" name="bikeType" value="my_bike" checked> My Own Bike&nbsp;&nbsp;';
+        content += '<input id="sharedBikeRBtn" type="radio" name="bikeType" value="shared_bike" > A Shared Bike';
         content += '</div>';
         
         content += '<hr />';
@@ -55,8 +55,8 @@ otp.widgets.TripSummaryWidget =
         // give this addthis toolbox a unique class so we can activate it alone in Webapp.js
         addthisElement.addClass("addthis_toolbox_route");
         addthisElement.appendTo("#share-route");
-        addthisElement.attr("addthis:title", "Check out my #CiBi trip:");
-        addthisElement.attr("addthis:description", "Cibi.me is built by OpenPlans and allows users to plan trips using NYC's new bike share program.");
+        addthisElement.attr("addthis:title", "Check out my #OpenBike trip:");
+        addthisElement.attr("addthis:description", "OpenBike.co is built with tech by OpenPlans and allows users to find better bike routes.");
         
         this.bikeTriangle = new otp.widgets.BikeTrianglePanel('otp-tsw-bikeTriangle');
         this.bikeTriangle.onChanged = planTripCallback; /*function() {

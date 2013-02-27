@@ -1,6 +1,24 @@
 <stations lastUpdate="1336532525196" version="2.0">
 
-<station><id>1000</id><name>Center of Broadway south of Columbus Circle (Broadway Boulevard)</name><terminalName>1000</terminalName><lat>40.767343</lat><long>-73.981646</long><installed>true</installed><locked>false</locked><installDate>1316059200000</installDate><removalDate/><temporary>false</temporary><nbBikes>43</nbBikes><nbEmptyDocks>43</nbEmptyDocks><latestUpdateTime>1336519030710</latestUpdateTime></station>
+<station>
+	<id>1000</id>
+	<name>250 Columbine</name>
+	<terminalName>1000</terminalName>
+	<lat>39.720352213000069</lat>
+	<long>-104.956875379999929</long>
+	<installed>true</installed>
+	<locked>false</locked>
+	<installDate>1316059200000</installDate>
+	<removalDate/>
+	<temporary>false</temporary>
+	<nbBikes>7</nbBikes>
+	<nbEmptyDocks>11</nbEmptyDocks>
+	<latestUpdateTime>1336519030710</latestUpdateTime>
+</station>
+
+
+
+
 <station><id>1001</id><name>Center of Broadway south of West 36th Street (Broadway Boulevard)</name><terminalName>1001</terminalName><lat>40.751139</lat><long>-73.987615</long><installed>true</installed><locked>false</locked><installDate>1316059200000</installDate><removalDate/><temporary>false</temporary><nbBikes>35</nbBikes><nbEmptyDocks>35</nbEmptyDocks><latestUpdateTime>1336519030710</latestUpdateTime></station>
 <station><id>1002</id><name>Center of Broadway south of West 38th Street (Broadway Boulevard)</name><terminalName>1002</terminalName><lat>40.752459</lat><long>-73.987387</long><installed>true</installed><locked>false</locked><installDate>1316059200000</installDate><removalDate/><temporary>false</temporary><nbBikes>59</nbBikes><nbEmptyDocks>59</nbEmptyDocks><latestUpdateTime>1336519030710</latestUpdateTime></station>
 <station><id>1003</id><name>Center of Broadway south of West 41st Street (Broadway Boulevard)</name><terminalName>1003</terminalName><lat>40.754607</lat><long>-73.986693</long><installed>true</installed><locked>false</locked><installDate>1316059200000</installDate><removalDate/><temporary>false</temporary><nbBikes>59</nbBikes><nbEmptyDocks>59</nbEmptyDocks><latestUpdateTime>1336519030710</latestUpdateTime></station>

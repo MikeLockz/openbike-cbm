@@ -789,6 +789,23 @@ p#splash-text span {
 }
 
 
+
+
+
+
+
+#ob-logo {
+  background: url('images/open_bike_logo.png') no-repeat 6px 6px;
+  height:46px;
+  width:246px;
+  float:left;
+}
+
+
+
+
+
+
 /* =Media Query Size Indicator
 -------------------------------------------------------------- */
 
