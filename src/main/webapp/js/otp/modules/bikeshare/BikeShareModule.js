@@ -386,7 +386,7 @@ otp.modules.bikeshare.BikeShareModule =
     createAboutInfo : function() {
     	this.contactWidget = new otp.widgets.InfoWidget("otp-contactWidget");
 
-		var contactCopy = '<p><a href=\"mailto:michael@lockdev.com\">Email us</a></p><p><a href="https://twitter.com/intent/user?screen_name=MikeLockz">Follow @MikeLockz</a></p>';
+		var contactCopy = '<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css"><style type="text/css">#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }</style><div id="mc_embed_signup"><form action="http://lockdev.us6.list-manage.com/subscribe/post?u=b417df99a06d1a981d3dc5819&amp;id=1f2531050b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate><label for="mce-EMAIL">Subscribe to our mailing list</label><input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required><div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div></form></div><p><a href=\"mailto:michael@lockdev.com\">Email us</a></p><p><a href="https://twitter.com/intent/user?screen_name=MikeLockz">Follow @MikeLockz</a></p>';
 
 		this.contactWidget.setContent("<p class='title'>Contact</p>" + contactCopy);
 		this.contactWidget.hide();
