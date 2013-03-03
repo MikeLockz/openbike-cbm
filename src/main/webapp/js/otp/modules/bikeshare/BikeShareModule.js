@@ -386,13 +386,14 @@ otp.modules.bikeshare.BikeShareModule =
     createAboutInfo : function() {
     	this.contactWidget = new otp.widgets.InfoWidget("otp-contactWidget");
 
-		var contactCopy = '<p></p>';
+		var contactCopy = '<p><a href=\"mailto:michael@lockdev.com\">Email us</a></p><p><a href="https://twitter.com/intent/user?screen_name=MikeLockz">Follow @MikeLockz</a></p>';
 
 		this.contactWidget.setContent("<p class='title'>Contact</p>" + contactCopy);
 		this.contactWidget.hide();
     	
+        var aboutCopy = '<h1>OpenBike is getting more awesome</h1><h2>Check out our demo, signup for news</h2><p>OpenBike provides cyclists with more information about their bike routes.  OpenBike collects information about bike routes on qualitative measures such as route safety, difficulty, and scenery from riders. In addition, the map shows bike accident and theft data from local agencies like the police and transportation departments. All the information is easily accessed on the map showing the areas to avoid and the secret routes you never knew. OpenBike is an interactive mapping platform that allows Front Range riders to view and provide meaningful feedback about the quality of a bike route in their community.</p><p>OpenBike was first launched at the Denver Code4Communities Hackathon as part of Code for America. Originally named RadRoutes, OpenBike\'s goal is to crowdsource discovery of the best bike routes for cyclists and provide useful information for route planning to governments. The team created a winning app for the event and has continued to build out the project since then with the help of a community of volunteers.</p><h3>Coming soon</h3><ul><li>Bike route information for the entire front range</li><li>Custom route creation</li><li>Social sharing of your routes</li><li>Mobile version</li></ul><p>Open Bike is under active development. Signup with your email or <a href=\"mailto:michael@lockdev.com\">contact us directly</a> to stay informed about features and releases.</p>';
         this.aboutWidget = new otp.widgets.InfoWidget("otp-aboutWidget");
-		this.aboutWidget.setContent('<p></p>');
+		this.aboutWidget.setContent(aboutCopy);
 		this.aboutWidget.hide();
 
     },
